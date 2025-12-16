@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+
+}
+/* MOBILE */
+.home-section{
+height: 100vh;
+background-image: url("https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDEwfHx8ZW58MHx8fHx8")
+}
+.name{
+  font-weight: bold;
+    font-size: 24px;
+ 
+}
+
+.bullet{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+     margin:0px 50px;
+     padding-top:20px ;
+}
+.hero{
+    padding: 0px;
+    height: 100%;
+}
+.hero-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+}
+.book{
+    font-weight: bold;
+font-size: 32px;
+gap:10px;
+}
+.book-1{
+    font-size: 24px;
+    padding: 20px;
+
+}
+.book-2{
+    font-size:16px ;
+    gap: 20px;
+    padding: 20  PX;
+    text-align: center;
+}
+.button{
+     background-color: rgb(91, 2, 7);
+    padding: 5px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    color: white; 
+    margin-top: 20PX;  
+
+}
+.content>p{
+    font-size:32px ;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+
+}
+.image{
+    text-align: center;
+
+
+    
+}
+.lon{
+    font-size:16px ;
+    font-weight: bold;
+    text-align: center;
+}
+.image>h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.gray{
+    color: gray;
+    text-align: center;
+    margin: 0px 0px 20px;
+    padding: 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+.foot-conten{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 20px;
+   align-items: center;
+}
+.foot,li{
+    list-style-type: none;
+}
+.follow{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* TABLET */
+@media (min-width:740px){
+  
+
+
+}
+
+
+
+/* DESKTOP / LAPTOP */
+@media (min-width:1200px){
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+.name{
+    display: flex;
+    font-size: 24px;
+    padding-left: 150px;
+
+}
+.bullet{
+    display: flex;
+    gap: 20px;
+    padding-right:180px;
+}
+.bullet li{
+    display: flex;
+   list-style-type:none ;
+    cursor: pointer;
+   
+}
+
+.menu{
+    display: none;
+}
+}
