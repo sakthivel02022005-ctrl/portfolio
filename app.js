@@ -158,16 +158,40 @@
 //     const result = greetArrow(10, 20, 30);
 //     console.log(result);
 
-    //higher order functions
+   // higher order functions
 
 //     function add(a,b){
 //         return a+b;
 //     }
-//     const square = (one,,e) => {
+//     const square = (one,w,e) => {
 //        const sum = one(w,e);
 //         return sum**2;
 //     }
-// console.log(squre(add, 2, 3));
-                                                                         //homework
+// console.log(square(add, 2, 3));
+                                                                //homework
 //                                                                       //shallow copy, deep copy,filter,reduce ,call back hell
+
+//async functions
+// async function APIcall(){
+//   const response = await fetch("https://dummyjson.com/products");
+//   const data = await response.json();
+//   console.log(data);}
+//   APIcall();
+
+  //dom manipulation
+  // const button = document.querySelector("button");
+  // console.log(button);
+  // button.addEventListener("click",()=>{
+  //   const div = document.querySelector(".book");
+  //   console.log(div.innerText, "click");
+  //   if (div.innerText==="Book an exclusive"){
+  //     div.innerText="Booked Successfully";
+  //   } else {
+  //     div.innerText="Book an exclusive";
+  //   }
+
+
+  // });
+
+
 
